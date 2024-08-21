@@ -512,6 +512,10 @@ html{
     .service .row{
         grid-template-columns: repeat(auto-fit,minmax(80%,1fr));
     }
+    .back{
+    position: absolute;
+    right: 0;bottom: 0;
+    z-index: -1
 }
 @media screen and (max-width:920px){
     .home .home_slide .box .content h3{
@@ -631,4 +635,16 @@ html{
     .contact .box{
     grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
     }
+    @media (min-aspect-ratio: 16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
 }

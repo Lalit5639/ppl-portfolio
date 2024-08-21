@@ -99,7 +99,7 @@ header .fa-bars{
 }
 .home .home_slide .box::before{
     content: "";
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     left: 0; top: 0rem;
     bottom: 0; right: 0;
